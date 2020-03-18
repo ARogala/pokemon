@@ -6,28 +6,6 @@
  * @version $Id$
  */
 /* add your CSS here */
-.fact {
-	font-style: italic;
-}
-
-.heading {
-	margin: 10px;
-	text-align: center;
-
-
-}
-
-
-.list span {
-	font-weight: bold;
-}
-
-.list {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-
-}
 
 .MainDiv {
 	margin: 0 auto 0 auto;
@@ -37,15 +15,25 @@
 	height: 900px;
 	width: 320px;
 	padding: 5px;
-	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
 
+.heading {
+	margin: 10px;
+	text-align: center;
+}
 
+.image {
+	/*display block so we can center like a div*/
+	display: block;
+	width: 300px;
+	height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
 }
 
 .SubDiv {
-	margin: auto;
+	margin: 0 auto 0 auto;
 	border-style: solid;
 	border-width: 1px;
 	border-color: grey;
@@ -53,12 +41,23 @@
 	padding: 5px;
 }
 
-.image {
-	display: block;
-	width: 300px;
-	height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-
+.fact {
+	font-style: italic;
 }
+
+.list {
+	/*type none to remove bullets*/
+	list-style-type: none;
+	padding: 0;
+}
+
+.list span {
+	font-weight: bold;
+}
+
+
+
+
+
+
+
