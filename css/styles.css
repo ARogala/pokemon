@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2020-03-17 20:05:43
+ * @version $Id$
+ */
+/* add your CSS here */
+.fact {
+	font-style: italic;
+}
+
+.heading {
+	margin: 10px;
+	text-align: center;
+
+
+}
+
+
+.list span {
+	font-weight: bold;
+}
+
+.list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+.MainDiv {
+	margin: 0 auto 0 auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: grey;
+	height: 900px;
+	width: 320px;
+	padding: 5px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+
+}
+
+.SubDiv {
+	margin: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: grey;
+	width: 300px;
+	padding: 5px;
+}
+
+.image {
+	display: block;
+	width: 300px;
+	height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+
+}
