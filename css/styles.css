@@ -7,6 +7,38 @@
  */
 /* add your CSS here */
 
+/*remove default padding and margin for list*/
+.nav__list {
+  padding: 0;
+  margin: 0;
+}
+
+.nav__item {
+	/*display block to remove list item style*/
+  display: block;
+  text-align: center;
+  line-height: 24px;
+  padding: 24px;
+  text-transform: uppercase;
+}
+
+.nav a {
+  /*removes default underling for anchor tag*/
+  text-decoration: none;
+  /* em is relative to font size so 1.5 times font size
+	 also add padding so you can click easily on phone
+  */
+  padding: 1.5em;
+}
+
+/*select and style a link when you mouse over it*/
+.nav a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+
+
 .MainDiv {
 	margin: 0 auto 0 auto;
 	border-style: solid;
